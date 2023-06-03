@@ -13,7 +13,9 @@ def generated_person():
         email=faker_en.email(),
         current_address=faker_en.address(),
         mobile=faker_en.msisdn(),
-        subject='English'
+        subject='English',
+        password=faker_en.password(),
+        user_name=faker_en.name()
     )
 
 

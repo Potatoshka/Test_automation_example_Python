@@ -9,4 +9,6 @@ class Person:
     current_address: str = None
     mobile: str = None
     subject: str = None
+    password: str = None
+    user_name: str = None
 
